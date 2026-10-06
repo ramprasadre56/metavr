@@ -26,8 +26,10 @@ Platform: **WebXR (Immersive Web SDK)** — VR starter, TypeScript, locomotion +
 5. **Test on Quest** — run `npm run dev:status`, open the `network` URL (e.g. https://192.168.29.216:8081) in the Quest Browser on the same Wi-Fi, accept the local certificate warning, tap *Enter VR*.
    Alternative over USB: `adb reverse tcp:8081 tcp:8081` then open https://localhost:8081 on the headset.
 
-## Submission (WebXR)
-Deploy `dist/` via **Vercel** or **GitHub Pages** (public HTTPS URL) and submit that URL on Devpost.
+## Deployment (GitHub Pages) — live
+- Repo: https://github.com/ramprasadre56/metavr (public, branch `main`)
+- Live URL: **https://ramprasadre56.github.io/metavr/** ← submit this on Devpost
+- `.github/workflows/deploy-pages.yml` builds and deploys on every push to `main` (or run it manually from the Actions tab).
 
 ## References
 - Competition resources: https://start-developer-competition-26.devpost.com/resources
