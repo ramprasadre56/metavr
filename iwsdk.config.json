@@ -36,11 +36,11 @@
       }
     },
     "features": {
-      "locomotion": {
-        "useWorker": true
+      "locomotion": false,
+      "grabbing": {
+        "useHandPinchForGrab": true
       },
-      "grabbing": true,
-      "physics": true,
+      "physics": false,
       "sceneUnderstanding": false,
       "environmentRaycast": false,
       "spatialUI": {

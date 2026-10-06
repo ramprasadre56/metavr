@@ -57,18 +57,17 @@
 </style>
 <Panel class="panel-root">
   <div class="panel-content">
-    <div class="heading">Hello, Immersive Web!</div>
+    <div class="heading">Focus Desk</div>
     <Divider></Divider>
     <div class="sub-heading">
-      Build interactive browser, mixed-reality, and virtual-reality experiences
-      with Immersive Web SDK.
+      A seated, hands-first desk for VR. Drag tasks, run focus sessions, grow your garden. Best on Meta Quest with hand tracking.
     </div>
   </div>
   <Button id="xr-button" class="button">
     <ButtonIcon>
       <RectangleGoggles></RectangleGoggles>
     </ButtonIcon>
-    <ButtonLabel class="button-label">Enter XR</ButtonLabel>
+    <ButtonLabel class="button-label">Enter VR</ButtonLabel>
   </Button>
   <Button id="exit-button" class="button" style="display: none">
     <ButtonIcon>

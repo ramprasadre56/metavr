@@ -36,3 +36,7 @@ Platform: **WebXR (Immersive Web SDK)** — VR starter, TypeScript, locomotion +
 - IWSDK project setup: https://developers.meta.com/horizon/documentation/web/iwsdk-guide-project-setup/
 - Testing your experience (emulator controls): https://iwsdk.dev/guides/02-testing-experience.html
 - Device setup: https://developers.meta.com/horizon/documentation/unity/unity-env-device-setup
+
+## Project: Focus Desk (Productivity track)
+Code: `src/focus-desk.ts` (system), `src/focus-components.ts`, `src/focus-store.ts` (localStorage), `src/text-panel.ts`, `src/sfx.ts`.
+Devpost text: see `SUBMISSION.md`.
